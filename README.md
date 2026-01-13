@@ -1,16 +1,55 @@
-## Hi there 👋
+# Hi, I'm James Juma Muganda👋
 
-<!--
-**MugandaJames/MugandaJames** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 Software Developer | Python • Java • JavaScript • React  
+💡 Interested in Machine Learning, AI, and building real-world systems
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 👨‍💻 About Me
+I'm a developer who enjoys turning ideas into working software.  
+I focus on writing clean, readable code and constantly improving my problem-solving skills.
+
+Currently:
+- Building projects with **Python, Java, JavaScript, and React**
+- Strengthening **data structures & algorithms**
+- Exploring **Machine Learning and AI**
+
+---
+
+## 🛠 Tech Stack
+
+**Languages**
+- Python
+- Java
+- JavaScript
+
+**Frameworks & Tools**
+- React
+- Flask
+- Git & GitHub
+- Linux
+
+**Currently Learning**
+- Advanced DSA
+- System Design basics
+- Machine Learning concepts
+
+---
+
+## 📌 Featured Projects
+🔹 **LeetCode Solutions** – Clean and optimized DSA solutions with explanations in Python and Java  
+🔹 **Dockerized Real Estate Management System** – Full-stack React and Python application containerized with Docker for scalable deployment
+
+
+---
+
+## 📈 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MugandaJames&show_icons=true&hide_border=true)
+
+---
+
+## 🤝 Connect With Me
+- GitHub: https://github.com/MugandaJames
+
+---
+⭐ *Always learning. Always building.*
