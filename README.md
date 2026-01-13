@@ -48,8 +48,8 @@ james = {
 ---
 
 ## 📌 Featured Projects
-- **LeetCode Solutions** – Well-structured DSA solutions in Python and Java
-- **Dockerized Real Estate Management System** – Full-stack React + Python application containerized with Docker
+- **LeetCode Solutions** – Well‑structured DSA solutions in Python and Java  
+- **Dockerized Real Estate Management System** – Full‑stack React + Python application containerized with Docker
 
 ---
 
@@ -64,4 +64,3 @@ james = {
 
 ---
 ⭐ *Always learning. Always building.*
-
