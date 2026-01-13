@@ -31,7 +31,6 @@ james = {
     "focus": "Building real, usable software"
 }
 
-
 ## 🛠 Tech Stack
 
 ### Languages
@@ -65,3 +64,4 @@ james = {
 
 ---
 ⭐ *Always learning. Always building.*
+
