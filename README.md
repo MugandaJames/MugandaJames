@@ -30,6 +30,7 @@ james = {
     "currently_learning": ["Advanced DSA", "ML fundamentals"],
     "focus": "Building real, usable software"
 }
+```
 
 ## 🛠 Tech Stack
 
@@ -58,10 +59,12 @@ james = {
 ---
 
 ## 📈 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MugandaJames&show_icons=true&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MugandaJames&layout=compact&hide_border=true)
 
----
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MugandaJames&show_icons=true&theme=radical&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MugandaJames&layout=compact&theme=radical&hide_border=true)
+
+
 
 ## 🤝 Connect With Me
 - GitHub: https://github.com/MugandaJames
