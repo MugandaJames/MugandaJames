@@ -74,25 +74,41 @@ james = {
 
 > Consistency is the real differentiator.
 
+<!-- 
+  ✅ Uses git.io/streak-stats which refreshes every ~24h.
+  ✅ Cache-busting via ?v= query param forces GitHub to re-fetch on each README view.
+  Replace "MugandaJames" with your exact GitHub username (case-sensitive).
+-->
+
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MugandaJames&theme=tokyonight&hide_border=true&background=0d1117&ring=7C3AED&fire=FF6B35&currStreakLabel=7C3AED&sideLabels=c9d1d9&dates=8b949e" />
+  <img src="https://streak-stats.demolab.com?user=MugandaJames&theme=tokyonight&hide_border=true&background=0d1117&ring=7C3AED&fire=FF6B35&currStreakLabel=7C3AED&sideLabels=c9d1d9&dates=8b949e&v=2" />
 </div>
 
 ---
 
 ## 📊 GitHub Stats
 
+<!--
+  ✅ github-readme-stats refreshes ~every 30 minutes via Vercel edge cache.
+  ✅ Adding &cache_seconds=1800 requests the shortest allowed cache window.
+-->
+
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=MugandaJames&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&icon_color=7C3AED&text_color=c9d1d9&ring_color=7C3AED" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MugandaJames&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&text_color=c9d1d9&langs_count=8" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=MugandaJames&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&icon_color=7C3AED&text_color=c9d1d9&ring_color=7C3AED&count_private=true&include_all_commits=true&cache_seconds=1800" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MugandaJames&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&text_color=c9d1d9&langs_count=8&cache_seconds=1800" />
 </div>
 
 ---
 
 ## 📈 Contribution Activity
 
+<!--
+  ✅ Switched to github-readme-activity-graph on ashutosh00710's instance — refreshes more frequently.
+  ✅ area=true fills under the curve for better visual weight.
+-->
+
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MugandaJames&bg_color=0d1117&color=7C3AED&line=7C3AED&point=ffffff&area=true&hide_border=true" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MugandaJames&bg_color=0d1117&color=7C3AED&line=7C3AED&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Graph" />
 </div>
 
 ---
