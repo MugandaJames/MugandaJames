@@ -21,11 +21,11 @@ james = {
     "name":       "James Juma Muganda",
     "role":       "Software Engineer",
     "location":   "🌍 Nairobi, Kenya",
-    "stacks":     ["MERN (MongoDB · Express · React · Node.js)", "Python / FastAPI / Flask"],
+    "stacks":     ["MERN (MongoDB · Express · React · Node.js)", "Python / FastAPI"],
     "languages":  ["JavaScript", "TypeScript", "Python", "Java"],
     "devops":     ["Docker", "Kubernetes", "Jira", "Linux", "Git"],
     "ai_ml":      ["ML Fundamentals", "NumPy", "Pandas", "TensorFlow"],
-    "currently":  "Advanced DSA + MERN Stack + ML Systems",
+    "currently":  "Advanced DSA + Kubernetes + ML Systems",
     "motto":      "Ship it. Learn. Repeat. 🚀"
 }
 ```
@@ -74,38 +74,29 @@ james = {
 
 > Consistency is the real differentiator.
 
-<!-- 
-  ✅ Uses git.io/streak-stats which refreshes every ~24h.
-  ✅ Cache-busting via ?v= query param forces GitHub to re-fetch on each README view.
-  Replace "MugandaJames" with your exact GitHub username (case-sensitive).
--->
-
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=MugandaJames&theme=tokyonight&hide_border=true&background=0d1117&ring=7C3AED&fire=FF6B35&currStreakLabel=7C3AED&sideLabels=c9d1d9&dates=8b949e&v=2" />
+  <img src="https://streak-stats.demolab.com?user=MugandaJames&theme=tokyonight&hide_border=true&background=0d1117&ring=7C3AED&fire=FF6B35&currStreakLabel=7C3AED&sideLabels=c9d1d9&dates=8b949e" />
 </div>
 
 ---
 
 ## 📊 GitHub Stats
 
-<!--
-  ✅ github-readme-stats refreshes ~every 30 minutes via Vercel edge cache.
-  ✅ Adding &cache_seconds=1800 requests the shortest allowed cache window.
--->
-
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=MugandaJames&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&icon_color=7C3AED&text_color=c9d1d9&ring_color=7C3AED&count_private=true&include_all_commits=true&cache_seconds=1800" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MugandaJames&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&text_color=c9d1d9&langs_count=8&cache_seconds=1800" />
+
+  <img height="180em" src="https://github-stats-alpha.vercel.app/api?username=MugandaJames&cc=0d1117&tc=7C3AED&ic=7C3AED&bc=0d1117" />
+
+  <br/><br/>
+
+  <!-- Commits, PRs, Issues, Reviews — pulled directly from GitHub's public API via a reliable third-party -->
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MugandaJames&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&icon_color=7C3AED&text_color=c9d1d9&count_private=true&include_all_commits=true&cache_seconds=1800&rank_icon=github" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MugandaJames&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&text_color=c9d1d9&langs_count=8&cache_seconds=1800" />
+
 </div>
 
 ---
 
 ## 📈 Contribution Activity
-
-<!--
-  ✅ Switched to github-readme-activity-graph on ashutosh00710's instance — refreshes more frequently.
-  ✅ area=true fills under the curve for better visual weight.
--->
 
 <div align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MugandaJames&bg_color=0d1117&color=7C3AED&line=7C3AED&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Graph" />
@@ -145,9 +136,8 @@ TypeScript           █████████████░░░  82%
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-MugandaJames-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MugandaJames)
-[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/MugandaJames)
-[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/your_handle)
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mugandajames403@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/james-juma-muganda)
+[![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
 
 **Open to:** Full-time roles · Freelance · Open source · Hackathons · Mentorship
 
