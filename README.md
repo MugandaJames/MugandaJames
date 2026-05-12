@@ -70,12 +70,12 @@ james = {
 
 ---
 
-## 🔥 Coding Streak
+## 🔥 GitHub Streak
 
 > Consistency is the real differentiator.
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=MugandaJames&theme=tokyonight&hide_border=true&background=0d1117&ring=7C3AED&fire=FF6B35&currStreakLabel=7C3AED&sideLabels=c9d1d9&dates=8b949e" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=MugandaJames&theme=tokyonight&hide_border=true&background=0d1117&ring=7C3AED&fire=FF6B35&currStreakLabel=7C3AED&sideLabels=c9d1d9&dates=8b949e&stroke=7C3AED&cache_seconds=86400" />
 </div>
 
 ---
@@ -84,11 +84,6 @@ james = {
 
 <div align="center">
 
-  <img height="180em" src="https://github-stats-alpha.vercel.app/api?username=MugandaJames&cc=0d1117&tc=7C3AED&ic=7C3AED&bc=0d1117" />
-
-  <br/><br/>
-
-  <!-- Commits, PRs, Issues, Reviews — pulled directly from GitHub's public API via a reliable third-party -->
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MugandaJames&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&icon_color=7C3AED&text_color=c9d1d9&count_private=true&include_all_commits=true&cache_seconds=1800&rank_icon=github" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MugandaJames&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&text_color=c9d1d9&langs_count=8&cache_seconds=1800" />
 
@@ -99,7 +94,7 @@ james = {
 ## 📈 Contribution Activity
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MugandaJames&bg_color=0d1117&color=7C3AED&line=7C3AED&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Graph" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MugandaJames&bg_color=0d1117&color=7C3AED&line=7C3AED&point=ffffff&area=true&area_color=7C3AED&hide_border=true&custom_title=Contribution%20Graph&theme=react-dark" />
 </div>
 
 ---
