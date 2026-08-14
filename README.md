@@ -75,7 +75,7 @@ james = {
 > Consistency is the real differentiator.
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=MugandaJames&theme=tokyonight&hide_border=true&background=0d1117&ring=7C3AED&fire=FF6B35&currStreakLabel=7C3AED&sideLabels=c9d1d9&dates=8b949e&stroke=7C3AED" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app?user=MugandaJames&theme=tokyonight&hide_border=true&background=0d1117&ring=7C3AED&fire=FF6B35&currStreakLabel=7C3AED&sideLabels=c9d1d9&dates=8b949e&stroke=7C3AED" />
 </div>
 
 ---
@@ -130,7 +130,7 @@ TypeScript           █████████████░░░  82%
 
 [![GitHub](https://img.shields.io/badge/GitHub-MugandaJames-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MugandaJames)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/james-juma-muganda)
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mugandajames403@gmail.com)
 
 **Open to:** Full-time roles · Freelance · Open source · Hackathons · Mentorship
 
