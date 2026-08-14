@@ -75,7 +75,7 @@ james = {
 > Consistency is the real differentiator.
 
 <div align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app?user=MugandaJames&theme=tokyonight&hide_border=true&background=0d1117&ring=7C3AED&fire=FF6B35&currStreakLabel=7C3AED&sideLabels=c9d1d9&dates=8b949e&stroke=7C3AED" />
+  <img src="https://raw.githubusercontent.com/MugandaJames/MugandaJames/main/profile-assets/streak.svg" />
 </div>
 
 ---
@@ -92,7 +92,7 @@ james = {
 ## 📈 Contribution Activity
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MugandaJames&bg_color=0d1117&color=7C3AED&line=7C3AED&point=ffffff&area=true&area_color=7C3AED&hide_border=true&custom_title=Contribution%20Graph&theme=react-dark" />
+  <img width="95%" src="https://raw.githubusercontent.com/MugandaJames/MugandaJames/main/profile-assets/activity-graph.svg" />
 </div>
 
 ---
