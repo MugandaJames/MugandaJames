@@ -1,0 +1,22 @@
+<svg width="495" height="195" viewBox="0 0 495 195" xmlns="http://www.w3.org/2000/svg">
+  <rect width="495" height="195" rx="10" fill="#0d1117"/>
+  <text x="247" y="30" text-anchor="middle" fill="#c9d1d9" font-family="Segoe UI, sans-serif" font-size="14">
+    Generated 2026-08-14 · from live GitHub data
+  </text>
+
+  <g transform="translate(60,60)">
+    <text x="0" y="0" text-anchor="middle" fill="#7C3AED" font-family="Segoe UI, sans-serif" font-size="34" font-weight="bold">257</text>
+    <text x="0" y="26" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, sans-serif" font-size="12">Total Contributions</text>
+  </g>
+
+  <g transform="translate(247,60)">
+    <circle cx="0" cy="-10" r="46" fill="none" stroke="#FF6B35" stroke-width="4"/>
+    <text x="0" y="0" text-anchor="middle" fill="#FF6B35" font-family="Segoe UI, sans-serif" font-size="34" font-weight="bold">2</text>
+    <text x="0" y="26" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, sans-serif" font-size="12">Current Streak</text>
+  </g>
+
+  <g transform="translate(434,60)">
+    <text x="0" y="0" text-anchor="middle" fill="#7C3AED" font-family="Segoe UI, sans-serif" font-size="34" font-weight="bold">13</text>
+    <text x="0" y="26" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, sans-serif" font-size="12">Longest Streak</text>
+  </g>
+</svg>
