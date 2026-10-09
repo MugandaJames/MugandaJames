@@ -1,231 +1,236 @@
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a0533,100:0d1117&height=220&section=header&text=James%20Juma%20Muganda&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Backend%20Engineer%20%7C%20Python%20%7C%20System%20Design%20%7C%20Infrastructure&descAlignY=56&descSize=16&animation=fadeIn" />
+# James Juma Muganda
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=760&lines=Designing+backend+systems+that+scale;Python+%7C+FastAPI+%7C+Flask+%7C+PostgreSQL;System+Design+%7C+APIs+%7C+Distributed+Systems;Docker+%7C+Kubernetes+%7C+Linux;Building+production-minded+software;AI+%26+Machine+Learning+with+PyTorch;Clean+architecture.+Strong+fundamentals.+Always+building.)](https://git.io/typing-svg)
+### Backend Engineer · System Design · Infrastructure
 
-<br/>
+Building reliable backend systems with Python, APIs, databases, and scalable architecture.
 
-[![GitHub followers](https://img.shields.io/github/followers/MugandaJames?style=for-the-badge&logo=github&labelColor=0d1117&color=7C3AED)](https://github.com/MugandaJames)
-[![Profile Views](https://komarev.com/ghpvc/?username=MugandaJames&style=for-the-badge&color=7C3AED&labelColor=0d1117)](https://github.com/MugandaJames)
-[![GitHub Stars](https://img.shields.io/github/stars/MugandaJames?style=for-the-badge&logo=github&labelColor=0d1117&color=7C3AED)](https://github.com/MugandaJames)
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=Backend+Engineer;Python+%7C+FastAPI+%7C+Flask;System+Design+%26+Software+Architecture;Docker+%7C+Kubernetes+%7C+Linux" alt="Typing introduction" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/github/followers/MugandaJames?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/MugandaJames?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" />
+</p>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 ```python
-james = {
-    "name": "James Juma Muganda",
-    "role": "Backend Engineer & Software Engineer",
-    "location": "Nairobi, Kenya",
-    "education": "BSc Computer Science",
+class JamesJumaMuganda:
+    def __init__(self):
+        self.role = "Backend Engineer"
+        self.education = "BSc Computer Science"
+        self.university = "Catholic University of Eastern Africa"
+        self.expected_graduation = 2027
+
+        self.primary_language = "Python"
+        self.focus = [
+            "Backend Engineering",
+            "System Design",
+            "Software Architecture",
+            "APIs and Distributed Systems",
+            "Infrastructure and DevOps",
+        ]
+
+    def current_goal(self):
+        return "Build reliable, scalable software systems"
+```
+
+- 🎓 Pursuing a BSc in Computer Science at CUEA.
+- 🐍 Focused on Python backend engineering with FastAPI and Flask.
+- 🏗️ Interested in system design, domain-driven design, and clean architecture.
+- 🗄️ Building with relational databases, data modelling, and persistence patterns.
+- 🐳 Learning and applying infrastructure tools including Docker, Kubernetes, and Linux.
+- 🧪 Focused on testing, maintainability, security, and production-quality code.
+- 🤖 Exploring machine learning with PyTorch.
+
+My goal is to become a strong backend engineer who understands not only how to write code, but also how to design, build, test, deploy, and maintain reliable systems.
+
+---
+
+## Tech Stack
+
+### Languages
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+</p>
+
+### Backend Engineering
+
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" />
+</p>
+
+### Databases and Data
+
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+</p>
+
+### Architecture and Engineering Practices
+
+<p>
+  <img src="https://img.shields.io/badge/Domain--Driven_Design-7C3AED?style=for-the-badge" alt="Domain-Driven Design" />
+  <img src="https://img.shields.io/badge/Clean_Architecture-2563EB?style=for-the-badge" alt="Clean Architecture" />
+  <img src="https://img.shields.io/badge/REST_APIs-009688?style=for-the-badge" alt="REST APIs" />
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest" />
+  <img src="https://img.shields.io/badge/Alembic-333333?style=for-the-badge" alt="Alembic" />
+</p>
 
-    "backend": [
-        "Python",
-        "FastAPI",
-        "Flask",
-        "REST APIs",
-        "SQLAlchemy"
-    ],
+### Infrastructure and Tools
 
-    "databases": [
-        "PostgreSQL",
-        "MongoDB",
-        "Redis"
-    ],
+<p>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</p>
 
-    "architecture": [
-        "System Design",
-        "Clean Architecture",
-        "Domain-Driven Design",
-        "Modular Monoliths",
-        "Repository Pattern",
-        "Unit of Work"
-    ],
+### Machine Learning and Data Science
 
-    "infrastructure": [
-        "Docker",
-        "Kubernetes",
-        "Linux",
-        "Git"
-    ],
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
+</p>
 
-    "ai_ml": [
-        "PyTorch",
-        "Machine Learning",
-        "Deep Learning",
-        "NumPy",
-        "Pandas"
-    ],
+---
 
-    "languages": [
-        "Python",
-        "Java",
-        "JavaScript",
-        "TypeScript"
-    ],
+## Featured Projects
 
-    "motto": "Build systems. Understand the fundamentals. Keep shipping."
-}
-I'm a backend-focused software engineer interested in building reliable, maintainable, and scalable systems.
+### 🏠 Nyumba Management System
 
-My primary focus is Python backend engineering, with particular interest in APIs, databases, system architecture, distributed systems, security, and infrastructure.
+A property and tenant management backend designed around clear business rules, modular architecture, and maintainability.
 
-🐍 Backend engineering: FastAPI, Flask, SQLAlchemy, and REST APIs
+**Focus areas:**
+- FastAPI and Python backend development.
+- Domain-Driven Design and layered architecture.
+- Property, tenant, lease, and rent management.
+- Repository pattern and Unit of Work.
+- PostgreSQL, SQLAlchemy, and Alembic migrations.
+- Automated testing with Pytest.
+- Role-based access control for administrators, property owners, and tenants.
+- M-Pesa payment integration.
 
-🏗️ System design: Scalability, reliability, consistency, and maintainability
+**Architecture overview**
 
-🗄️ Data and persistence: PostgreSQL, database modeling, transactions, and concurrency
+```text
+                    API / Presentation
+                           |
+                    Application Layer
+                           |
+                       Domain Layer
+                           |
+                  Repository Interfaces
+                           |
+                   Infrastructure Layer
+                           |
+                  PostgreSQL / External APIs
+```
 
-🐳 Infrastructure: Docker, Kubernetes, Linux, and containerized applications
+Repository: [Explore my GitHub repositories](https://github.com/MugandaJames?tab=repositories)
 
-🔐 Backend security: Authentication, authorization, RBAC, and JWT
+### 💳 FinPay — Financial System Design
 
-🧩 Software architecture: Modular monoliths, DDD, Repository, and Unit of Work patterns
+A financial-system engineering project exploring the architecture of reliable transaction processing and ledger-based systems.
 
-🧠 AI and Machine Learning: Exploring machine learning and deep learning with PyTorch
+**Focus areas:**
+- Accounts and transaction processing.
+- Ledger entries and financial data modelling.
+- PostgreSQL as the authoritative data store.
+- Idempotency and consistency considerations.
+- Transactional outbox patterns.
+- Redis and event-driven architecture concepts.
+- Kafka and change-data-capture design considerations.
+- Scalability, reliability, and failure handling.
 
-💻 Computer science fundamentals: Algorithms, data structures, and systems thinking
+**Illustrative design targets — not measured production results:**
+- 5–10 million users.
+- 200 million transactions per day.
+- Approximately 2,315 average transactions per second.
+- Approximately 23,148 transactions per second at an illustrative 10× peak.
 
-I care less about collecting technologies and more about understanding why systems work, where they fail, and how to build them better.
+Repository: [Explore my GitHub repositories](https://github.com/MugandaJames?tab=repositories)
 
-🛠️ Tech Stack
-🐍 Backend Engineering
+---
 
-Python FastAPI Flask SQLAlchemy Pydantic
+## GitHub Statistics
 
-🗄️ Databases and Data
+<div align="center">
 
-PostgreSQL Redis MongoDB
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=MugandaJames&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics" />
 
-🏗️ Architecture and Testing
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MugandaJames&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages" />
 
-REST APIs DDD Clean Architecture Pytest Alembic
+</div>
 
-🐳 DevOps and Infrastructure
+## GitHub Streak
 
-Docker Kubernetes Linux Git GitHub
+<div align="center">
 
-🧠 AI and Machine Learning
+<img src="https://streak-stats.demolab.com/?user=MugandaJames&theme=dark&hide_border=true&background=0D1117&ring=7C3AED&fire=7C3AED&currStreakLabel=7C3AED&sideLabels=C9D1D9&dates=8B949E" alt="GitHub contribution streak" />
 
-PyTorch NumPy Pandas
+</div>
 
-💻 Other Languages
+> The streak card is generated from GitHub contribution activity by an external service. It can occasionally be unavailable or display differently because of service outages, caching, or date and timezone handling. GitHub's contribution calendar is the source of truth.
 
-Java JavaScript TypeScript
+## Contribution Activity
 
-🚀 Featured Projects
-🏠 Nyumba Management System
+<div align="center">
 
-A property and tenant management platform built around a modular-monolith architecture.
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MugandaJames&theme=tokyo-night&hide_border=true" alt="GitHub contribution activity graph" />
 
-Engineering focus:
+</div>
 
-Domain-Driven Design and separation of concerns
+---
 
-Role-Based Access Control (RBAC)
+## What I'm Working Toward
 
-Property, tenant, and lease management
+- Building secure, maintainable, production-ready backend applications.
+- Deepening my knowledge of distributed systems and system design.
+- Improving database design, transactions, concurrency, and performance.
+- Applying testing and software engineering principles consistently.
+- Strengthening deployment and infrastructure skills with Docker, Kubernetes, and Linux.
+- Developing the ability to make sound architectural decisions as systems grow.
 
-Rent charging and payment processing
+---
 
-M-Pesa integration
+## Connect With Me
 
-PostgreSQL, SQLAlchemy, and Alembic
+<p>
+  <a href="https://github.com/MugandaJames">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
+  </a>
+  <a href="https://www.linkedin.com/in/james-juma-muganda/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
+  </a>
+  <a href="mailto:mugandajames403@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" />
+  </a>
+</p>
 
-FastAPI and automated testing
+---
 
-Architecture at a glance:
-                ┌──────────────────────┐
-                │   Presentation Layer │
-                │       FastAPI        │
-                └──────────┬───────────┘
-                           │
-                ┌──────────▼───────────┐
-                │  Application Layer   │
-                │    Use Cases / Ports │
-                └──────────┬───────────┘
-                           │
-                ┌──────────▼───────────┐
-                │     Domain Layer     │
-                │ Entities / Rules / VO│
-                └──────────┬───────────┘
-                           │
-                ┌──────────▼───────────┐
-                │ Infrastructure Layer │
-                │ PostgreSQL / Adapters│
-                └──────────────────────┘
+<div align="center">
 
-🔗 Repository: 
-Explore my GitHub repositories https://github.com/MugandaJames?tab=repositories
+*"Build with purpose. Design for reliability. Improve continuously."*
 
-💳 FinPay
-
-A financial-system engineering project focused on exploring the design of reliable payment infrastructure.
-
-Engineering focus:
-
-Accounts and transaction processing
-
-Double-entry ledger concepts
-
-PostgreSQL as the authoritative data store
-
-Transaction consistency and idempotency
-
-Redis and caching strategies
-
-Transactional Outbox Pattern
-
-Event-driven architecture
-
-Kafka and change data capture (CDC)
-
-High-throughput system design
-
-Illustrative design targets, not measured production performance:
-
-User scale target       → 5M–10M users
-Transactions per day    → 200M
-Average throughput      → ~2,315 TPS
-Illustrative peak       → ~23,148 TPS
-
-These figures are capacity-planning assumptions for exploring system design, not claims of achieved throughput.
-
-🔗 Repository: 
-Explore my GitHub repositories
-
-🔥 GitHub Contribution Streak
-
-Streak accuracy: The card retrieves data through an external service. GitHub's contribution eligibility rules apply, and the card depends on the external service being available. Use your GitHub contribution calendar as the source of truth.
-
-📊 GitHub Statistics
-📈 Contribution Activity
-🧭 Engineering Interests
-
-My focus is on developing the skills needed to take a real problem from design to a reliable implementation.
-
-⚙️ Backend APIs and service architecture
-
-🏗️ Distributed systems and system design
-
-🗄️ Database architecture, transactions, and concurrency
-
-🔐 Authentication, authorization, and security
-
-📨 Event-driven architecture and messaging
-
-☁️ Cloud-native infrastructure
-
-🐳 Containerization and Kubernetes
-
-💳 Financial and payment systems
-
-🤖 Machine learning systems
-
-The goal isn't to know every framework. It's to design a system, implement it, test it, deploy it, and explain the trade-offs.
-
-🤝 Let's Connect
+</div>
