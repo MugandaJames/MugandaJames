@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-label="FinPay design: client to API with idempotency keys, ledger service, PostgreSQL double-entry ledger with a transactional outbox, change data capture into Kafka, and consumers for notifications, fraud and analytics, and a Redis balance cache. Illustrative design targets: 2,315 average and 23,148 peak transactions per second.">
+  <style>
+    .sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .box{fill:#161b22;stroke:#30363d;stroke-width:1.5}
+    .t{fill:#e6edf3;font-size:15px;font-weight:600}
+    .s{fill:#8b949e;font-size:11.5px}
+    .flow{fill:none;stroke-width:2;stroke-dasharray:5 9;animation:dash 1.3s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-28}}
+    .spark{fill:none;stroke:#a78bfa;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:700;stroke-dashoffset:700;animation:draw 4s ease-in-out infinite}
+    @keyframes draw{0%{stroke-dashoffset:700}55%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:-700}}
+    .glow{transform-box:fill-box;transform-origin:center;animation:glow 2s ease-in-out infinite}
+    @keyframes glow{0%,100%{opacity:.4}50%{opacity:1}}
+  </style>
+  <rect x="1" y="1" width="998" height="468" rx="20" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <text x="40" y="44" class="mono" font-size="13" fill="#a78bfa" letter-spacing="2">FINPAY · TRANSACTION PIPELINE</text>
+  <text x="960" y="44" class="mono" font-size="12" fill="#6e7681" text-anchor="end">design study · not production metrics</text>
+
+  <!-- connectors -->
+  <path class="flow" stroke="#7c3aed" d="M178 120 H232"/>
+  <path class="flow" stroke="#7c3aed" d="M410 120 H464"/>
+  <path class="flow" stroke="#7c3aed" d="M642 120 H696"/>
+  <path class="flow" stroke="#0891b2" d="M800 152 V214"/>
+  <path class="flow" stroke="#0891b2" d="M696 246 H642"/>
+  <path class="flow" stroke="#0891b2" d="M464 246 H410"/>
+  <path class="flow" stroke="#0891b2" d="M320 278 V320 H130 V350"/>
+  <path class="flow" stroke="#0891b2" d="M320 278 V350"/>
+  <path class="flow" stroke="#0891b2" d="M320 278 V320 H510 V350"/>
+
+  <!-- packets -->
+  <circle r="5" fill="#c4b5fd"><animateMotion dur="3.2s" repeatCount="indefinite" path="M110 120 H800 V246 H320 V350"/></circle>
+  <circle r="5" fill="#c4b5fd"><animateMotion dur="3.2s" begin="1.07s" repeatCount="indefinite" path="M110 120 H800 V246 H320 V320 H130 V350"/></circle>
+  <circle r="5" fill="#67e8f9"><animateMotion dur="3.2s" begin="2.13s" repeatCount="indefinite" path="M110 120 H800 V246 H320 V320 H510 V350"/></circle>
+
+  <!-- row 1 -->
+  <g class="sans">
+    <rect class="box" x="40" y="88" width="138" height="64" rx="12"/><text class="t" x="60" y="116">Client</text><text class="s mono" x="60" y="136">POST /transfers</text>
+    <rect class="box" x="232" y="88" width="178" height="64" rx="12"/><text class="t" x="252" y="116">API gateway</text><text class="s mono" x="252" y="136">Idempotency-Key ✓</text>
+    <rect class="box" x="464" y="88" width="178" height="64" rx="12"/><text class="t" x="484" y="116">Ledger service</text><text class="s mono" x="484" y="136">debit = credit</text>
+    <rect class="box" x="696" y="88" width="260" height="64" rx="12" stroke="#7c3aed"/><text class="t" x="716" y="116">PostgreSQL</text><text class="s mono" x="716" y="136">ledger + outbox · one transaction</text>
+    <circle class="glow" cx="936" cy="104" r="5" fill="#a78bfa"/>
+    <!-- row 2 -->
+    <rect class="box" x="696" y="214" width="260" height="64" rx="12"/><text class="t" x="716" y="242">Change data capture</text><text class="s mono" x="716" y="262">outbox → events</text>
+    <rect class="box" x="464" y="214" width="178" height="64" rx="12" stroke="#0891b2"/><text class="t" x="484" y="242">Kafka</text><text class="s mono" x="484" y="262">transfers.completed</text>
+    <circle class="glow" cx="622" cy="230" r="5" fill="#22d3ee"/>
+    <rect class="box" x="232" y="214" width="178" height="64" rx="12"/><text class="t" x="252" y="242">Consumers</text><text class="s mono" x="252" y="262">at-least-once · dedupe</text>
+    <!-- row 3 -->
+    <rect class="box" x="40" y="350" width="180" height="58" rx="12"/><text class="t" x="60" y="376">Notifications</text><text class="s mono" x="60" y="394">SMS · email</text>
+    <rect class="box" x="230" y="350" width="180" height="58" rx="12"/><text class="t" x="250" y="376">Fraud &amp; analytics</text><text class="s mono" x="250" y="394">streaming rules</text>
+    <rect class="box" x="420" y="350" width="180" height="58" rx="12"/><text class="t" x="440" y="376">Balance cache</text><text class="s mono" x="440" y="394">Redis · read model</text>
+  </g>
+
+  <!-- throughput -->
+  <g class="mono">
+    <rect x="640" y="314" width="316" height="124" rx="12" fill="#0f1420" stroke="#30363d"/>
+    <text x="660" y="340" font-size="11.5" fill="#8b949e">TARGET THROUGHPUT (illustrative)</text>
+    <text x="660" y="372" font-size="22" font-weight="700" fill="#e6edf3">2,315<tspan font-size="12" fill="#8b949e" font-weight="400"> tx/s avg</tspan></text>
+    <text x="660" y="400" font-size="15" font-weight="700" fill="#c4b5fd">23,148<tspan font-size="11" fill="#8b949e" font-weight="400"> tx/s at 10× peak</tspan></text>
+    <path class="spark" d="M820 418 L838 404 L854 410 L870 392 L886 398 L902 372 L918 384 L934 352"/>
+    <text x="660" y="426" font-size="11" fill="#6e7681">200M tx/day · 5–10M users</text>
+  </g>
+</svg>

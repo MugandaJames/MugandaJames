@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-label="Build with purpose. Design for reliability. Improve continuously.">
+  <style>
+    .sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+    .w{opacity:0;animation:w 7.5s ease-in-out infinite}
+    .w2{animation-delay:2.5s}.w3{animation-delay:5s}
+    @keyframes w{0%{opacity:0;transform:translateY(10px)}8%,30%{opacity:1;transform:none}38%,100%{opacity:0;transform:translateY(-10px)}}
+    .wave{animation:wave 8s linear infinite}
+    @keyframes wave{to{transform:translateX(-500px)}}
+  </style>
+  <rect x="1" y="1" width="998" height="148" rx="20" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <clipPath id="c"><rect x="2" y="2" width="996" height="146" rx="19"/></clipPath>
+  <g clip-path="url(#c)">
+    <path class="wave" d="M0 128 Q125 108 250 128 T500 128 T750 128 T1000 128 T1250 128 T1500 128 V150 H0 Z" fill="#1f1530" opacity=".9"/>
+    <path class="wave" style="animation-duration:12s" d="M0 136 Q125 120 250 136 T500 136 T750 136 T1000 136 T1250 136 T1500 136 V150 H0 Z" fill="#2a1d45" opacity=".8"/>
+  </g>
+  <g class="sans" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="-.5">
+    <text class="w" x="500" y="78" fill="#ffffff">Build with purpose.</text>
+    <text class="w w2" x="500" y="78" fill="#c4b5fd">Design for reliability.</text>
+    <text class="w w3" x="500" y="78" fill="#67e8f9">Improve continuously.</text>
+  </g>
+</svg>
