@@ -27,7 +27,6 @@ class JamesJumaMuganda:
     def __init__(self):
         self.role = "Backend Engineer · Founder & CEO, WAONA"
         self.based_in = "Nairobi, Kenya"
-        self.education = "BSc Computer Science, Catholic University of Eastern Africa (2027)"
         self.primary_language = "Python"
         self.focus = [
             "Backend Engineering",
