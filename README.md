@@ -43,7 +43,6 @@ class JamesJumaMuganda:
 </details>
 
 - 🏢 Founder & CEO of **[WAONA](https://waona.ke)**, a technology company building its own products and custom software for businesses.
-- 🎓 BSc Computer Science at CUEA (graduating 2027).
 - 🐍 Python backend engineering with **FastAPI** and **Flask**.
 - 🏗️ System design, **Domain-Driven Design** and clean architecture.
 - 🗄️ Relational data modelling, transactions and persistence patterns.
