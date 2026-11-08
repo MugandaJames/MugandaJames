@@ -131,7 +131,7 @@ A design study of reliable money movement: idempotent APIs, a double-entry ledge
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=MugandaJames&show_icons=true&hide_border=true&rank_icon=github&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9" alt="GitHub statistics" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MugandaJames&layout=compact&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9" alt="Most used languages" />
 
-<img src="https://streak-stats.demolab.com/?user=MugandaJames&hide_border=true&background=0D1117&ring=A78BFA&fire=22D3EE&currStreakLabel=A78BFA&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E&stroke=30363D" alt="GitHub contribution streak" />
+<img src="./profile/streak.svg" alt="GitHub contribution streak" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=MugandaJames&hide_border=true&bg_color=0d1117&color=c9d1d9&line=a78bfa&point=22d3ee&area=true&area_color=a78bfa" width="100%" alt="Contribution activity graph" />
 
@@ -143,7 +143,7 @@ A design study of reliable money movement: idempotent APIs, a double-entry ledge
 
 </div>
 
-<sub>Stats, streak and activity cards come from free community services and can occasionally be slow or unavailable. GitHub's own contribution calendar is the source of truth.</sub>
+<sub>The streak card is regenerated in this repo every few hours (counted in UTC, as GitHub's API reports it). Stats and activity cards come from free community services and can occasionally be slow or unavailable. GitHub's own contribution calendar is the source of truth.</sub>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
