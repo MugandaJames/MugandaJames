@@ -1,0 +1,42 @@
+name: Update streak stats
+
+on:
+  schedule:
+    # Every 6 hours (UTC). 21:17 UTC = 00:17 Nairobi, so a fresh day is picked up right after midnight.
+    - cron: "17 3,9,15,21 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/streak-stats.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: streak-stats
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=MugandaJames&hide_border=true&background=0D1117&ring=A78BFA&fire=22D3EE&currStreakLabel=A78BFA&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E&stroke=30363D&disable_animations=true
+          path: profile/streak.svg
+          # Classic Personal Access Token with NO scopes, saved as a repo secret.
+          # Needed so private-repo contributions are counted (GITHUB_TOKEN can't see them).
+          token: ${{ secrets.STREAK_STATS_TOKEN }}
+
+      - name: Commit streak card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update streak stats"
+          git push
